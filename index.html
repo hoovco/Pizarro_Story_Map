@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cronistas del Peru</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <link href="css/leaflet.css" type="text/css" rel= "stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&family=Vollkorn+SC:wght@700&display=swap" rel="stylesheet"></head>
+    <!-- <script src="data/traildata.json"></script> -->
+<body>
+        <div id="map"></div>
+        <script src="data/traildata.js"></script>
+        <script src="data/incaTrailSimplified.js"></script>
+
+        <!-- <div id="sidebar"></div> -->
+        <div id="infopane">
+           <!-- making three divs here. They should change their content on marker clicks -->
+            <div id="titleBox" class="titlebox"><h2>Cronicles of Francisco Pizarro</h2> <h3>An Interactive History</h3></div>
+            <div id="secondaryTitlebox" class="secondaryTitlebox"><h3>Introduction and Preface</h3></div>
+            <div id="scrollInfobox" class="scrollInfobox">Francisco Pizarro is known as the 'conquistador' of Peru.
+                In 1513 he left Spain to explore the new world on the expedition led by Vasco Núñez de Balboa.
+                Along with Pizarro, he also employed several people who would go on to write about his exploits and stories.
+                in 1524 he managed to acquire funding from Diego de Almagro and Hernando de Luque, two important men in
+                Panama. From Panama, he proposed to conquer "Biru" (Peru). He and others had heard of the trade networks,
+                riches and possible cities of gold.
+                <img src="img/PizarroPhoto.jpg" alt="Picture of Francisco Pizarro" width=95%>
+                Our story begins as Pizarro arrives to the northern Peruvian town of Tumbes. Prior to this
+                the Incan empire (Tahuantinsuyu) had been struggling with internal conflict and civil war between the
+                two royal Inca brothers, Huascar and Atahualpa. At this time, the Incan empire was incredibly expansive,
+                stretching from what is now Colombia all the way to Argentina.
+                <img src="img/Atahualpa.jpg" alt="Picture of Atahualpa" width="95%"">
+            </div>
+            <div id="supplementaryInfobox" class="supplementaryInfobox"> [1] Francisca Pìzarro una ilustre mestiza, María Rostworowski Tovar de Diez Canseco. Lima, IEP.</div>
+        </div>
+    <script src="js/leaflet.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
